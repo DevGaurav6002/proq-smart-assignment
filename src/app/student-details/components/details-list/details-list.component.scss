@@ -1,0 +1,39 @@
+.error{
+    color: rgb(249, 93, 84);
+    font-size: 12px;
+}
+
+.contaiener{
+    padding: 30px;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cell-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.title-card{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title{
+    padding: 10px;
+}
+
+.input-field{
+    width: 80%;
+    padding: 6px 8px;
+    border: 1px solid #d0cfcf;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.mat-elevation-z8{
+    padding: 10px 0px;
+}

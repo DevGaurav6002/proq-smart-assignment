@@ -1,0 +1,64 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.page-title{
+    text-align: center;
+    p{
+        font-size: 32px;
+    }
+}
+
+.success{
+    color: royalblue;
+}
+
+.failure{
+    color: red;
+}
+
+p{
+    font-size: 19px;
+}
+
+.title{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid lightgray;
+
+    span{
+        border-bottom: 1px solid royalblue;
+        font-size: 24px;
+        padding-bottom: 8px;
+    }
+}
+
+.details-container{
+    display: flex;
+    width: 100%;
+}
+
+.details{
+    background-color: rgb(241, 240, 240);
+    padding: 15px;
+    border-right: 1px solid lightgray;
+    width: 100%;
+
+    .info{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 60px;
+    }
+}
